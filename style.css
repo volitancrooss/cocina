@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #a40000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.recetas {
+    display: flex;
+    justify-content: center;
+    margin: ;
+}
+
+article {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    margin: 10px;
+    
+}
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+article h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+article p {
+    font-size: 14px;
+    padding: 0 10px 10px;
+}
+
+footer {
+    background-color: #a40000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer div a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
